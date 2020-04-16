@@ -60,7 +60,7 @@ As we can see, the second future, neg_task, started executing as soon as it was 
 
 ## How to use Async-await in Rust:
 
-You may be familier with the async-await from JavaScript or C#. Rust’s version of the feature is similar, nut with few key differences.
+You may be familiar with the async-await from JavaScript or C#. Rust’s version of the feature is similar, nut with few key differences.
 
 To use async-await, you start writing by async fn instead of fn.
 async fn first_function() -> u32 { .. }
@@ -81,7 +81,7 @@ This example shows the first difference between Rust and other languages: we wri
 
 ## Conclusion:
 We believe that having async-await on stable Rust is going to be a key enabler for a lot of new and exciting developments in Rust. If you've tried Async I/O in Rust in the past and had problems -- particularly if you tried the combinator-based futures of the past -- you'll find async-await integrates much better with Rust's borrowing system
-Hope it helps in understanding Asynchrous Programming in Rust and let me know if there is any feedback.       
+Hope it helps in understanding Asynchronous Programming in Rust and let me know if there is any feedback.       
                        Thank You.
 
 ## Resources: 
